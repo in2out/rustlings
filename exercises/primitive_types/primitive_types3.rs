@@ -3,7 +3,7 @@
 // Execute `rustlings hint primitive_types3` for hints!
 
 fn main() {
-    let mut a = [1, 2, 3, 4, 5, 10];
+    let mut a = vec![1, 2, 3, 4, 5, 10];
 
     for i in 0..100 {
         a.push(i);
